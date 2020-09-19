@@ -51,7 +51,7 @@ useEffect(() => {
     return (
         <div className="page-container">
           <Filters link="/records" linkText="VER TABELA" />
-            <div className="chart-countainer">
+            <div className="chart-container">
               <div className="top-related">
                 <h1 className="top-related-title">
                     Jogos mais votados
@@ -60,8 +60,8 @@ useEffect(() => {
                     <Chart 
                     options={barOptions}
                     type="bar"
-                    width="900"
-                    height="150"
+                    width="700"
+                    height="550"
                     series={[{ data: barChartData }]}
                     />
                 </div>

@@ -6,8 +6,8 @@
   background-color: var(--color-dimgray);
   padding-top: 30px;
   padding-left: 70px;
-  border-radius: 30px;
-  flex: 5;
+  border-radius: 10px;
+  flex: 1;
 }
 
 .top-related-title {
@@ -17,7 +17,7 @@
 
 .games-container {
   display: flex;
-  justify-content: right;
+  justify-content: center;
 }
 
 .games-list {
@@ -48,7 +48,6 @@
   color: #FFF;
   width: 400px;
   margin-left: 30px;
-  
 }
 
 .chart-title {

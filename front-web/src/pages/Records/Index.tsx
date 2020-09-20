@@ -4,6 +4,7 @@ import './styles.css';
 import { RecordsResponse } from './types';
 import {formatDate} from './helpers';
 import Pagination from './Pagination';
+import {Link } from 'react-router-dom';
 import Filters from '../../components/Filters';
 
 const BASE_URL = 'https://searchgames-dionisio.herokuapp.com';
@@ -24,6 +25,7 @@ const handlePageChange = (index: number)=>{
     return (
         <div className="page-container">
            <Filters link="/charts" linkText="VER GRÁFICO" />
+           <Link to="charts"></Link>
           <table className="records-table" cellPadding="0" cellSpacing="0">
             <thead>
               <tr>

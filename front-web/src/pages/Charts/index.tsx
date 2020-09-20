@@ -21,7 +21,7 @@ const initiaPieData = {
     series: []
 }
 
-const BASE_URL = 'http://localhost:8080'
+const BASE_URL = 'https://searchgames-dionisio.herokuapp.com';
 
 const Charts = () => {
 
